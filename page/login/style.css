@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+/* ================ font-family: 'Titillium Web', sans-serif; ==================*/
+
+
+body {
+    background-color: #6B5B95;
+}
+
+.content { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px;
+    flex-direction: row;
+}
+
+.nav-button {
+    list-style-type: none;
+    padding: 10px 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.5 ease-out;
+    margin: 10px 5px;
+    color: #F5FFFA;
+    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: #F5FFFA;
+    opacity: 0.5;
+}
+
+form > * {    
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+#buttonLogin {
+    margin-top: 10px;
+    background-color: #363945;
+    cursor: pointer;
+    color: #F5FFFA;
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 30;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#btnLogin:hover {
+    opacity: 0.7;
+}
+
+#headerLogin {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F5FFFA;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Biodata</title>
+</head>
+<body>
+
+    <div class="container-nav">
+        <a href="../login/" class="nav-button">Login</a>
+        <a href="../biodata/" class="nav-button">Biodata</a>
+        <a href="../pemilihan_barang/" class="nav-button">Shop</a>
+    </div>
+
+    
+    <p class="headingBio">Biodata.</p> 
+    <form> 
+        <input type="text" name="name" id="name" placeholder="Nama">
+        <input type="text" name="address" id="address" placeholder="Alamat">
+        <input type="text" name="lastEducation" id="lastEducation" placeholder="Pendidikan Terakhir">
+
+        <label id="labelTanggalLahir" for="dateOfBirth">Tanggal Lahir</label>
+        <input type="date" name="dateOfBirth" id="dateOfBirth">
+        
+        <div class="gender"> 
+            <label id="labelJenisKelamin" for="gender">Jenis Kelamin</label>
+            <div class="radioButton">
+                <div>
+                    <input type="radio" name="gender" id="pria" value="Pria">
+                    <label for="pria">Pria</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="wanita" value="Wanita">
+                    <label for="wanita">Wanita</label>
+                </div>
+            </div>
+        </div>
+
+
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
